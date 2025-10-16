@@ -11,6 +11,7 @@
 ## Info
 - You will need some sort of Linux knowledge to use this guide.
 - Any issues you find, you can create a issue request and I will try to help.
+- Any help you want, or suggestions, use the discussions.
 - I will not be at fault if you get in trouble for anything YOU do.
 - I do not endorse you use this, but here it is for those who do.
 - Learn to install Linux guide: `https://www.youtube.com/watch?v=_BoqSxHTTNs`
@@ -29,7 +30,7 @@
 8. Your done! After entering your users password, you should be in the linux command prompt. Don't be scared, everything is easy. run these simple commands: `ls`, then `cd <the directory of your service listed in the ls command. if it doesnt exist, do step 6 again, but inside of the SSH>`.
 9. Almost there! Now you are in the directory of your service! So close! Run: `npm start` or any other command you use to start your service (be sure to follow the service you are using's instructions.). If you simply going to code, make sure you have python installed `sudo apt update && sudo apt install python3` and then run `python -m http.server <the port you selected when running SSH>`. Most of the time, after running `npm start` or any other command to start your service, it will feed something like this: `Server started on, localhost:5000`. The 5000 is the port. After finding that, hold `ctrl + c` until the service stops and you are back to running commands, type `exit`.
 10. You know the port now, very important. Next, run step 7 again, but change the two 8000's to the port of the service you started when it fed it out. It should have looked something like this: locahost:**5000**. That number is the port.
-11. You are back into your machine AGAIN! Do step 8 again, and then run `npm start` or whatever else the services documentation says to start your service. Now, on the computer you have used to SSH, go to `locahost:<the port you used when SSHing into the machine>`. It should have worked! If it didn't feel free to open an issue, and I will try to help as well as possible.
+11. You are back into your machine AGAIN! Do step 8 again, and then run `npm start` or whatever else the services documentation says to start your service. Now, on the computer you have used to SSH, go to `locahost:<the port you used when SSHing into the machine>`. It should have worked! If it didn't feel free to open an issue or discussion, and I will try to help as well as possible.
 
 ## Bypassing Password
 **If you are using lets say your father's Linux PC, this will be complicated to get a user on their PC with sudo privileges.**
