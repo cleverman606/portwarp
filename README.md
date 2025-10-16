@@ -1,3 +1,5 @@
+**DO NOT USE THIS ON GITHUB CODESPACES. THIS GUIDE IS FOR YOUR LOCAL MACHINE**
+
 # SSH Protocol Port Forwarding
 
 ## Features
