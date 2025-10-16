@@ -37,7 +37,7 @@
 1. If you are ready, first, get them to open a terminal window, and run `sudo apt update`. This is a simple command, and the start of our exploit. This command updates the package list, but has them use their sudo password. After they run this, be sure they do not close the terminal window. The command sudo is weird. When someone runs a sudo command, the sudo command is open to anyone until the terminal window closes.
 2. Be sneaky, when they are not there, be sure the terminal window from before is still open, run these 2 commands: `sudo adduser <change this to your user you want>` Spam enter until you are done with the questions they ask you. Then, run `sudo usermod -aG sudo <the username you just made>`. This gives your user sudo privilges.
 3. Change the password to your user. Make sure you still have the terminal window open, run `passwd <the user you made here>`. It will ask your for a password to set, be sure to remember this, and it will NOT show you what you are typing, BE 100% sure you have it correct, if it says BAD PASSWORD after clicking enter, but still says Confirm Password, ignore the BAD PASSWORD warning. Just retype the password you made.
-4. You now have your sudo user! You can go back to instructions step 3 and complete them while you still have the sudo terminal access.\
+4. You now have your sudo user! You can go back to instructions step 3 and complete them while you still have the sudo terminal access.
 
 # Interstellar
 
