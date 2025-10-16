@@ -22,7 +22,7 @@
 
 1. Install Ubuntu 24.04 or any other Linux version that supports openssh on a computer. (Documentation written with Ubuntu 24.04). Install either the GUI or server version. There are many tutorials on how to install Linux.
 2. Be sure you know the password to your machine. If not, we must do tricking. Go to the bypassing password section in this readme, finish those steps, then continue.
-3. Install openssh-server using the following command `sudo apt update && sudo apt install openssh-server`. This will install SSH to your machine.
+3. Install openssh-server using the following command `sudo apt update && sudo apt install openssh-server`. This will install SSH to your machine. Then run `sudo systemctl start ssh && sudo systemctl enable ssh` to have SSH start on boot and start SSH now.
 4. Customize OpenSSH to your liking using this command `sudo nano /etc/ssh/sshd_config`. If you want to change the port it runs on, unhashtag the PORT line and change 22 to any port you like.
 5. Port forward on your router the port you have set SSH to. Using Deco, you can go to the Advanced Settings -> Nat Forwarding -> Port Forwarding, then creating a new forward and selecting your machine and forwarding the port of SSH. You can use a video on the internet to learn how to port forward based on your router.
 6. Almost done! Now install any service you want. If you want Interstellar with this readme, run `sudo apt update && sudo apt install git -y && sudo git clone https://github.com/cleverman606/portwarp.git`. This can be any service that you know the port it runs on that serves a webpage. It could even be a local HTML project you are working on though the steps would change.
